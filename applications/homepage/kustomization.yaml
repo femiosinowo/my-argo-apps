@@ -9,3 +9,4 @@ resources:
   - configmap.yaml
   - secret.yaml
   - deployment.yaml
+  - ingress.yaml
