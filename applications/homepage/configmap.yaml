@@ -21,10 +21,15 @@ data:
             - abbr: GH
               href: https://github.com/
   services.yaml: |
-    - My First Group:
+
+    - Entertainment:
         - My First Service:
             href: http://localhost/
             description: Homepage is awesome
+        - widget:
+            type: plex
+            url: http://10.10.10.16:32400
+            key: mytokenhere
 
     - My Second Group:
         - My Second Service:
