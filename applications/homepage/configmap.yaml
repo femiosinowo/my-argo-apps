@@ -114,5 +114,9 @@ data:
         cpu: true
         memory: true
         network: default
+    - datetime:
+        text_size: xl
+        format:
+          timeStyle: short
 
   docker.yaml: ""
