@@ -7,6 +7,6 @@ resources:
   - ClusterRole.yaml
   - service.yaml
   - configmap.yaml
-  - secret.yaml
+  #- secret.yaml
   - deployment.yaml
   - ingress.yaml
