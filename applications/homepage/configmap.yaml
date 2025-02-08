@@ -25,8 +25,8 @@ data:
     - Home-Lab:
         - Proxmox:
             href: http://10.10.20.2:8006
-            icon: promox
-            description: Homepage is awesome
+            icon: promox.png
+            description: My Lab of Labs
             widget:
               type: proxmox
               url: https://10.10.20.2:8006
@@ -34,15 +34,15 @@ data:
               password: "{{HOMEPAGE_VAR_PROXMOX_PASSWORD}}"
               node: pve 
 
-    - Unifi:
-        - My Second Service:
-            href: http://localhost/
-            description: Homepage is the best
-            unifi_console:
-              url: https://10.10.10.1
-              username: haas
-              password: pass
-              site: Site Name # optional
+        - Unifi:
+            - Unifi Network:
+                href: http://10.10.10.1
+                description: Unifi
+                unifi_console:
+                  url: https://10.10.10.1
+                  username: "{{HOMEPAGE_VAR_UNIFI_USERNAME}}"
+                  password: "{{HOMEPAGE_VAR_UNIFI_PASSWORD}}"
+
 
     - Entertainment:
         - My Third Service:
@@ -55,13 +55,7 @@ data:
             description: Watch movies and TV shows.
             server: localhost
             container: plex
-            widgets:
-              - type: tautulli
-                url: http://172.16.1.1:8181
-                key: aabbccddeeffgghhiijjkkllmmnnoo
-              - type: uptimekuma
-                url: http://172.16.1.2:8080
-                slug: aaaaaaabbbbb
+
 
   widgets.yaml: |
     - kubernetes:
