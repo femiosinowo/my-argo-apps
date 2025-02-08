@@ -25,7 +25,7 @@ data:
     - Home-Lab:
         - Proxmox:
             href: http://10.10.20.2:8006
-            icon: promox.png
+            icon: proxmox.png
             description: My Lab of Labs
             widget:
               type: proxmox
