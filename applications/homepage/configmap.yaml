@@ -73,13 +73,13 @@ data:
               url: https://10.10.10.1
               username: "{{HOMEPAGE_VAR_UNIFI_USERNAME}}"
               password: "{{HOMEPAGE_VAR_UNIFI_PASSWORD}}"
-      - Entertainment:
-          - Plex:
-              icon: plex.png
-              href: http://10.10.10.16:32400
-              description: Watch movies and TV shows.
-              server: localhost
-              container: plex
+    - Entertainment:
+        - Plex:
+            icon: plex.png
+            href: http://10.10.10.16:32400
+            description: Watch movies and TV shows.
+            server: localhost
+            container: plex
 
 
   widgets.yaml: |
