@@ -59,6 +59,18 @@ data:
               username: "{{HOMEPAGE_VAR_PROXMOX_USERNAME}}"
               password: "{{HOMEPAGE_VAR_PROXMOX_PASSWORD}}"
               node: pve 
+        - ArgoCD:
+            href: https://10.10.20.50/
+            icon: argocd.svg
+            description: Apps of App
+            widget:
+              type: argocd
+              url: https://10.10.20.50/
+              key: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJhcmdvY2QiLCJzdWIiOiJhdXRvbWF0aW9uOmFwaUtleSIsIm5iZiI6MTczOTMzNTQxOSwiaWF0IjoxNzM5MzM1NDE5LCJqdGkiOiI0ZjJhZjI5NS1hMWFlLTRiZGMtOGY2NC1iN2M1MzVkYmM3NjMifQ.cLeKbevuwQQyklMTPqyhV_S-G9S_aDhA976k-UitK08
+
+
+
+              
 
     - Home Automation:
         - Home Assistant:
