@@ -87,7 +87,7 @@ data:
               username: "{{HOMEPAGE_VAR_UNIFI_USERNAME}}"
               password: "{{HOMEPAGE_VAR_UNIFI_PASSWORD}}"
         - Solar Assistant:
-            icon: https://d26qlef5ak4prm.cloudfront.net/images/logo-d0cff12a60c1c7c99cc3daddcf90be4f.svg?vsn=d
+            icon: https://scontent-dfw5-2.xx.fbcdn.net/v/t39.30808-1/300767152_474172958058860_1503069509209939230_n.png?stp=dst-png_s200x200&_nc_cat=102&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=7xzJWCQVm9QQ7kNvgHqsT0F&_nc_oc=AdhiG4l4Sec41O6MGekf-4_2vMwpe7nblV9Ej_1_b4My7GQz_OnIRiln9UxXS4eYVP4&_nc_zt=24&_nc_ht=scontent-dfw5-2.xx&_nc_gid=AAvXrnf6d-48-6VloaSVuGc&oh=00_AYDr-0v61VkmiY8P5-ySm3j1MQOCk0HWe-qcMdeV3LEaxQ&oe=67B1DDC2
             href: "http://10.10.40.197"
             description: mgmt console
     - Entertainment:
