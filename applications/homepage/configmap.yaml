@@ -61,7 +61,7 @@ data:
               node: pve 
         - ArgoCD:
             href: https://10.10.20.50/
-            icon: argocd.svg
+            icon: https://argo-cd.readthedocs.io/en/stable/assets/logo.png
             description: Apps of App
             widget:
               type: argocd
