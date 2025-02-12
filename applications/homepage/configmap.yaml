@@ -95,7 +95,7 @@ data:
             icon: plex.png
             href: http://10.10.10.16:32400
             description: Watch movies and TV shows.
-            server: localhost
+            server: plex
             container: plex
 
 
