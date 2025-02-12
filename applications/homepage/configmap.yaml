@@ -75,7 +75,7 @@ data:
             description: protect
         - Scryped:
             icon: https://www.scrypted.app/img/logo.png
-            href: "{{HOMEPAGE_VAR_SCRYPTED_URL}}"
+            href: "https://10.10.10.95:10443/"
             description: mgmt console
         - Unifi Network:
             href: http://10.10.10.1
@@ -86,6 +86,10 @@ data:
               url: https://10.10.10.1
               username: "{{HOMEPAGE_VAR_UNIFI_USERNAME}}"
               password: "{{HOMEPAGE_VAR_UNIFI_PASSWORD}}"
+        - Solar Assistant:
+            icon: https://d26qlef5ak4prm.cloudfront.net/images/logo-d0cff12a60c1c7c99cc3daddcf90be4f.svg?vsn=d
+            href: "http://10.10.40.197"
+            description: mgmt console
     - Entertainment:
         - Plex:
             icon: plex.png
